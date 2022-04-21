@@ -1,0 +1,7 @@
+{
+  "name": "Circle",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
