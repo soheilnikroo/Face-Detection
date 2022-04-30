@@ -1,0 +1,32 @@
+.header-light {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  height: 10%;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+
+.header-dark {
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+  padding-top: 2rem;
+  height: 10%;
+  width: 100%;
+  background-color: #252e49;
+  transition: all 0.5s ease;
+}
+
+.header-logo {
+  width: 74px;
+  height: 32px;
+}
+
+@media screen and (max-height: 700px) {
+  .header-logo {
+    width: 70px;
+    height: 24px;
+  }
+}
